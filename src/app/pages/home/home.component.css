@@ -1,0 +1,93 @@
+.home-container {
+    font-family: 'Segoe UI', sans-serif;
+    color: #000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffc107;
+    padding: 1rem 2rem;
+  }
+  
+  .nav-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .nav-links a.active {
+    border-bottom: 2px solid black;
+  }
+  
+  .main-section {
+    display: flex;
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .image-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .text-section {
+    margin-left: 2rem;
+    max-width: 600px;
+  }
+  
+  .text-section .tag {
+    background: lightgray;
+    color: #000;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .text-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .read-more {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .newsletter {
+    margin-top: 2rem;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter-form button {
+    background: #ffc107;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  

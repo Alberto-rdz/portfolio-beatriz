@@ -1,0 +1,40 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .about-text {
+    width: 60%;
+    padding-right: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text, .about-image {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .about-text {
+      margin-bottom: 1rem;
+    }
+  }
+  
